@@ -1,0 +1,282 @@
+
+
+
+
+
+
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 { 
+    font-size: 70px;
+    display: flex; 
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgba(107, 62, 30, 0.582);
+}
+
+h2{
+display: flex;
+justify-content: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+font-size: 30px;
+}
+
+/*navbar*/ 
+
+
+.nav-link {
+    font-size: 20px;
+    color: black;
+}
+
+
+/*VIDEO INICIO*/
+.card-img-top{
+    justify-content: center;
+}
+
+.videoinicio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.container {
+    background:rgba(107, 62, 30, 0.582);
+    width: 200%;
+    max-width: 1200px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h5 {color: white;
+display: flex;
+align-items: center;
+}
+
+
+.container > .imagenes,
+.container > .Destacados,
+.container > .video,
+.container > .div {
+padding: 20px;
+border: solid 1px rgba(70, 47, 28, 0.39);
+}
+
+.container > .imagenes {
+grid-column: span 3;
+display: flex;
+justify-content: space-between;
+}
+
+
+.container > .Destacados {
+    grid-column: span 3;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 30px;
+    text-align: center;
+}
+
+
+
+.container > .video {
+    grid-column: 1/4;
+}
+
+
+
+h4 {
+margin-left: 140px; color: black; 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size: 30px;
+}
+
+
+
+/*box-modeling*/
+.botoneslink { display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+}
+
+
+.cajas {
+    width: 120px;
+    height: 120px;
+    
+}
+
+#estilo-footer{
+    background-color: rgb(253, 246, 227);
+    width: 100%;
+    height: 70px;
+    border: 0px solid black;
+}
+
+#estilo-footer p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px 
+}
+
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a {
+    font-family: "heebo-light", sans-serif;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+h3 {
+    font-family: "heebo-regular", sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+}
+
+/*CSS GRID NOSOTROS*/
+
+.grid-container{
+    /*Box-modeling*/
+    width: 90%;
+    max-width: 1000px;
+    border: 10px solid wheat;
+    margin: auto;
+    
+
+
+    /*tipografia*/
+    font-size: 20px;
+    text-align: center;
+
+    /*Activar-Grids*/
+}
+
+/*CSS PRODUCTOS*/
+
+
+
+.subtitulos-productos{
+display: flex;
+justify-content: left;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:rgba(107, 62, 30, 0.582);
+}
+
+/*CSS GRIDS*/
+.grid-layout {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-auto-rows: auto;
+padding: 20px;
+}
+
+.imagenes-productos{
+width: 200px; 
+height: 300px;
+object-fit: cover;
+position: relative;
+}
+
+.imagenes-titulo{
+position: absolute;
+bottom: 0px;
+color: white;
+background: linear-gradient(rgb(255,255,255,0.5), rgba(0,0,0,1));
+width: 100%;
+margin: 0;
+font-size: 20px;
+}
+
+.fw-bold {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.rounded {
+    padding: 10px;
+}
+
+.card-group{
+    padding: 10px;
+}
+
+.card{
+    background-color: rgb(250, 241, 230);
+    margin-right: 20px;
+}
+
+
+
+/*Animaciones*/
+
+.fw-bold{
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+/*CSS FONDO HEADER*/
+
+
+.contenedor1{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    object-fit: cover;
+}
+
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color:white;
+    
+}
+
+.centrado1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color:white;
+
+
+}
